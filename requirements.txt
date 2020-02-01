@@ -1,0 +1,6 @@
+# cv2
+# tensorflow >1.0
+# PyTorch    >0.4
+# NumPY
+# matplotlib
+# pyYaml

@@ -1,0 +1,22 @@
+parameters:
+  lr                     : 0.0001
+  epoch                  : 300
+  beta1                  : 0.9
+  beta2                  : 0.999
+  batch_size             : 10
+
+  data_path              : "./dataset/train_set/"
+  test_path              : "./dataset/test_img/"
+  output_path            : "./out/GAN_results/"
+  police_database        : "./dataset/Police_database/"
+
+  lambda                 : 100
+  pretrained_weights_gen : "https://"
+  pretrained_weights_dis : "https://"
+  pretrained_path_gen    : "./gen.pkl"
+  pretrained_path_dis    : "./dis.pkl"
+  hardware               : "cpu"
+
+  train_or_test_GAN      : "train"
+  
+
